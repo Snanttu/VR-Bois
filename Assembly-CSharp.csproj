@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C4CD2DC0-B0D1-4C47-B5CB-718E485A815D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_Teleporter.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_TestThrow.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Extras\SteamVR_TrackedController.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\ControllerHoverHighlight.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\CustomEvents.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DebugUI.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DestroyOnDetachedFromHand.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DestroyOnParticleSystemDeath.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DestroyOnTriggerEnter.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DistanceHaptics.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\EnumFlags.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\FallbackCameraController.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Hand.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\HapticRack.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\HideOnHandFocusLost.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\InputModule.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Interactable.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\InteractableButtonEvents.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\InteractableHoverEvents.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\ItemPackage.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\ItemPackageReference.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\ItemPackageSpawner.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearAnimation.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearAnimator.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearAudioPitch.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearBlendshape.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearDisplacement.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearDrive.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\LinearMapping.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\PlaySound.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Player.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SeeThru.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SleepOnAwake.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SoundDeparent.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SoundPlayOneshot.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachAfterControllerIsTracking.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachToHand.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\SpawnRenderModel.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Throwable.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\UIElement.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Unparent.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\Util.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\Arrow.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\Balloon.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\FireSource.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\Longbow.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\ChaperoneInfo.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\IgnoreTeleportTrace.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\Teleport.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArea.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
+     <Compile Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Scripts\TeleportPoint.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Plugins\openvr_api.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Camera.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Controller.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Ears.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Events.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Fade.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Frustum.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_GameView.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_IK.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Menu.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Overlay.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Render.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Skybox.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Stats.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_TestController.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+     <Compile Include="Assets\Addons\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Demo Common\TSDXButton.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Demo Common\TSDXGoToSceneOnClick.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Demo Common\TSDXHorizontalAnchor.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Demo Common\TSDXWobblyCamera.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5BurstApartWhenSliced.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5BurstOnTap.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5FailSounder.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5Fate.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5ScoreAgent.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5ScoreModel.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5ScoreView.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Muffin Popper\TSD5Spawner.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3AttachableSlicerController.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3CameraSteer.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3SoundWhenSliced.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3SwordSwishController.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3SwordTransformController.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\TSD3SwordVelocityFilter.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3CameraPositionController.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3DemoSliceHandler.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3MarkOfCain.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3RestartButton.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3Spawner.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo LH\LHD3TimeForSlicingFilter.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\Splatter On Slice\Components\SplatterOnSlice.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\Splatter On Slice\Guts\ParticleDestructor.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3BurstApartWhenSliced.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3FailSounder.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3Fate.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3ScoreAgent.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3ScoreModel.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3ScoreView.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo TS\TSD3Spawner.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\Slash Flash\TSD4SliceEffect.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4BurstApartWhenSliced.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4FailSounder.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4Fate.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4ScoreAgent.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4ScoreModel.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4ScoreView.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4SoundWhenSliced.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4Spawner.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4Target.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\TSD4TargetSlicer.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\Trails Kit\SlashKit.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Components\Hackable.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Components\ToRagdollOrNot.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\ChildOfHackable.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\DataStructures.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\HierarchyHandling.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\InterceptionBranch.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\LimbHacker.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\PlaneSlice.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Limb Hacker\Guts\SliceableByPoint.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Components\AbstractSliceHandler.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\Extensions.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\ISliceable.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\MuffinSliceCommon.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\Slicer.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\Triangulation.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\TurboList.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Slice Common\Guts\VectorAccumulator.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Components\Sliceable.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\HierarchyHandling.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\InfillGeometryReceivers.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\InterceptionBranch.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\PublicScriptInterface.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\SliceCore.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\SliceSupport.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\TSCallbackOnDestroy.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\Tangents.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\Trash\DeletionCallback.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\Trash\TSMeshScrubber.cs" />
+     <Compile Include="Assets\Addons\Turbo Slicer\Noble Muffins\Turbo Slicer\Guts\TurboSlice.cs" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Shaders\Doublesided Lit (Two-Tex).shader" />
+     <None Include="Assets\Addons\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Shaders\Doublesided Lit (One-Tex).shader" />
+     <None Include="Assets\Addons\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\Addons\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Muffins\Muffin Shaders\Doublesided (Two-Tex).shader" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Demos\Sword Demo Common\Ceviche_One\OFL.txt" />
+     <None Include="Assets\Addons\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\Trails Kit\Readme.txt" />
+     <None Include="Assets\Textures\ADS_dojo\ADS_dojoREADME.txt" />
+     <None Include="Assets\Addons\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\Addons\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Addons\SteamVR\readme.txt" />
+     <None Include="Assets\Addons\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+     <None Include="Assets\Addons\SteamVR\Resources\SteamVR_ColorOut.shader" />
+     <None Include="Assets\Addons\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\Addons\Turbo Slicer\Noble Demos\Touch Slicer\Trails Kit\Slash Shader.shader" />
+     <None Include="Assets\Addons\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
